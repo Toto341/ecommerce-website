@@ -1,0 +1,340 @@
+
+/* header*/
+
+header{
+    background-color: #E74C3C;
+ }
+header a{
+    color: white;
+}
+
+main a{
+    color:rgb(255, 255, 255);
+}
+
+header nav{
+    padding-bottom: 15px;
+}
+
+header h1{
+    padding-left: 15px;
+}
+
+ .navegador{
+     display: flex;
+     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+} 
+
+.nav_links{
+     display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1rem;
+    font-size: 1.2rem;
+    align-content: center;
+    padding-top: 1.5rem;
+    
+}
+
+.icono{
+    display: flex;
+    gap: 1rem;
+}
+/*Main*/
+
+*{
+    margin: 0 auto;
+}
+
+.img {
+    max-width: 400px;
+    max-height: 100%;
+}
+
+body{
+    color:rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(250, 250, 250);
+    font-family: "Open Sans", sans-serif;
+
+}
+
+h2{
+    font-size: 20px;
+    color: #E67E22;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+h3{
+    font-size: 15px;
+    color: rgb(229, 32, 32);
+    font-family: "Open Sans", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+main h2{
+    padding-left: 15px;
+}
+
+main p{
+    padding-left: 15px;
+}
+/* Selectores de clase*/
+
+.fotoportada {
+    width: 100%;
+    height: 700px;
+    margin: 0;
+}
+.fondo{
+    background-color: #fcfcfc;
+}
+
+.pizzas{
+     padding-bottom:15px ;
+     padding-left: 20px;
+     padding-top: 15px;
+     padding-right: 20px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     
+}
+
+.img{
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+ .titulo{
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.contenedor{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.retroceso{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+}
+
+.btn{
+    background-color:rgb(229, 32, 32);
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.btn:hover{
+    border: rgb(229, 32, 32) 1px solid;    
+    color: #000;
+}
+
+.descripcion{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-basis: 300px;
+    max-width: 1400px;
+    margin-bottom: 3rem;
+
+}
+
+.text-header{
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.text-header h2 { 
+    font-size: 2rem;
+}
+
+.text-header p { 
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.text-body{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text-body p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.box{
+    padding:2rem;
+    background-color: rgb(235, 231, 230);
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.titulo-local{
+    padding-bottom: 20px;
+    padding-top: 15px;
+    color: #E74C3C;
+}
+
+.text-description{   
+    max-width: 1400px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.text-description h2{   
+    font-size: 2rem;
+    font-weight: 700;
+}    
+
+.boton{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.res{
+    max-width: 100%;
+}
+
+.slide-alto .carousel-item img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;    /* para que recorte bien la imagen */
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5); /* fondo semitransparente opcional */
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+
+/* Pie de pagina*/
+footer{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #555555;
+    font-family: "Roboto", sans-serif;
+    color: #DDDDDD;
+}
+
+footer a{
+    color: #DDDDDD;
+}
+
+footer h3{ 
+    color:#F9D949 ;
+}
+
+
+/* selectores de clase*/
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 1400px;
+}
+
+
+.text-footer{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-links{
+    list-style: none;
+     font-size: 1.2rem;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.redes{
+   width: 40px;
+   height: 40px;
+   margin: 1rem;    
+}
+
+/* --- Media Query para distintos dispositivos  (768px y 480px) --- */
+@media (max-width: 768px) { 
+    .fotoportada {
+        width: 100%;
+        height: auto; 
+        display: block;
+    }
+    .text-description {
+        padding-left: 1rem;
+        padding-right: 1rem;
+       justify-content: center;
+    }
+
+}
+
+@media (max-width: 480px) { 
+    .img {
+        max-width: 350px;
+        max-height: 350px;
+    }
+    
+    .navegador{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header h1 {
+        padding-left: 0px;
+    }
+
+    .nav_links {
+        padding-top: 0.5rem;
+    }
+
+
+    nav {       
+        width: 100%;
+    }
+}
